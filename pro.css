@@ -1,0 +1,41 @@
+
+
+.hero img{
+
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 10px;
+    height: 10px;
+    justify-content: center;
+    align-items: center;
+    object-position: center;
+    
+    
+} 
+
+ .search{
+    display: flex;
+    justify-content: center;
+   padding-top: 20%;
+} 
+
+::placeholder {
+    color: red;
+}
+
+input {
+    display: block;
+    width: 400px;
+    padding: 0 50px;
+}
+
+input,
+input::placeholder {
+    font: 35px/3 sans-serif;
+    border-radius: 50px;
+}
+.social{
+    display: block;
+    align-items: center;
+}
